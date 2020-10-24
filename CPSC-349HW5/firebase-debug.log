@@ -1,0 +1,29 @@
+[debug] [2020-10-24T23:22:17.820Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T23:22:17.822Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Gdst\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-10-24T23:22:17.822Z] CLI Version:   8.12.1
+[debug] [2020-10-24T23:22:17.822Z] Platform:      win32
+[debug] [2020-10-24T23:22:17.822Z] Node Version:  v12.18.3
+[debug] [2020-10-24T23:22:17.824Z] Time:          Sat Oct 24 2020 16:22:17 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-10-24T23:22:17.824Z] ----------------------------------------------------------------------
+[debug] [2020-10-24T23:22:17.824Z] 
+[debug] [2020-10-24T23:22:17.832Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-24T23:22:17.833Z] > authorizing via signed-in user
+[debug] [2020-10-24T23:22:17.833Z] [iam] checking project coffeerun-305a3 for permissions ["firebase.projects.get"]
+[debug] [2020-10-24T23:22:17.837Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeerun-305a3:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-10-24T23:22:18.109Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 24 Oct 2020 23:22:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=175","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-24T23:22:18.110Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/coffeerun-305a3  
+ 
+[debug] [2020-10-24T23:22:18.305Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 24 Oct 2020 23:22:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\Gdst\Desktop\CPSC349-HW5TUR'...
+[info] 
+[debug] [2020-10-24T23:22:18.309Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/coffeerun-305a3/webApps/-/config  
+ 
+[debug] [2020-10-24T23:22:18.748Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 24 Oct 2020 23:22:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: CPSC349-HW-MAIN {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mCPSC349-HW-MAIN\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2020:23:22:21 +0000] "GET / HTTP/1.1" 200 4824 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2020:23:22:21 +0000] \"GET / HTTP/1.1\" 200 4824 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2020:23:22:21 +0000] "GET /scripts/remotedatastore.js HTTP/1.1" 200 1647 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2020:23:22:21 +0000] \"GET /scripts/remotedatastore.js HTTP/1.1\" 200 1647 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2020:23:22:52 +0000] "GET / HTTP/1.1" 200 4824 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2020:23:22:52 +0000] \"GET / HTTP/1.1\" 200 4824 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2020:23:23:53 +0000] "GET / HTTP/1.1" 200 4824 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2020:23:23:53 +0000] \"GET / HTTP/1.1\" 200 4824 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.106 Safari/537.36\""}}
